@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+		
+	}
+.wrap{
+	width: 1366px;
+	height: 1500px;
+/*background-color: aqua;*/
+	margin: 0 auto;
+}
+.header ul {
+	width: 1366px;
+	height: 60px;
+	background-color: lightgoldenrodyellow;
+	margin: 0 auto;
+	}
+.header ul li{
+	display: inline-block;
+	margin-right: 30px;
+	padding: 20px;
+
+	}
+.header{
+	position: relative;
+}
+.cart{
+	width: 30px;
+	height: 30px;
+	background: url("images web/1x/baseline_shopping_cart_black_24dp.png")no-repeat;
+cursor: pointer;
+	margin-right: 30px;
+}
+.notification{
+	width: 30px;
+	height: 30px;
+	background: url("images web/1x/baseline_notifications_black_24dp.png")no-repeat;
+	cursor: pointer;
+	
+}
+
+.search{
+	width: 30px;
+	height: 30px;
+	background: url("images web/1x/baseline_search_black_24dp.png")no-repeat;
+	cursor: pointer;
+	
+	}
+
+.search, .cart, .notification{
+	float: right;
+	border: none;
+	margin-top: 30px;
+	
+
+}
+.banner{
+	width: 1366px;
+	height:500px;
+/*	background-color: aquamarine;*/
+background: url("images web/banner.jpg")no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+.aboutus{
+	width: 1366px;
+/*	height: 800px;*/
+	margin: 0 auto;
+	margin-top: 30px;
+
+	}
+.aboutus h2{
+	text-align: center;
+}
+.aboutusa{
+	width: 1250px;
+	height: 200px;
+/*	background-color: yellow;*/
+	margin: 0 auto;
+	
+	 }
+.aboutusa p{
+	font-size: 24px;
+	line-height: 30px;
+/*	margin-left: 20px;*/
+}
+.masala{
+	width: 1250px;
+	height: 400px;
+/*	background-color: aqua;*/
+	margin: 0 auto;
+	
+}
+.masalaa{
+	width: 455px;
+	height: 351px;
+/*	background-color: bisque;*/
+	display: inline-block;
+	float: left;
+	margin-left: 100px;
+}
+.masalaa:hover{
+	transform: scale(1.1);
+	transition: 1s;
+}
+.masalab{
+	width: 455px;
+	height: 351px;
+/*	background-color: bisque;*/
+	display: inline-block;
+	float: right;
+	margin-right: 130px;
+}
+.masalab:hover{
+	transform: scale(1.1);
+	transition: 1s;
+}
+.recipes {
+	width: 1366px;
+	height: 500px;
+/*background-color: aquamarine;*/
+}
+.recipes h2{
+	text-align: center;
+}
+.pica{
+	width: 550px;
+	height: 450px;
+    background: url("images web/imgbin_south-indian-cuisine-street-food-chicken-curry-png.png")no-repeat;
+	float: left;	
+	margin-left: 100px;
+}
+.pica:hover{
+	transform: scale(1.1);
+	transition: 1s;
+}
+.recipes p{
+	width: 400px;
+	height: 250px;
+	margin-top: 100px;
+	float: right;
+	margin-right: 300px;
+	line-height: 25px;
+	font-size: 18px;
+}
+.recipesp1{
+	width: 550px;
+	height: 300px;
+	margin-left: 250px;
+	line-height: 25px;
+	font-size: 18px;
+}
+
+	
+
+
+.picc{
+	width: 500px;
+	height: 300px;
+	background: url("images web/pngkey.com-fried-chicken-png-180023.png")no-repeat;
+	
+	margin-left: 200px;
+/*	float: left;*/
+}
+.picc:hover{
+	transform: scale(1.1);
+	transition: 1s;
+}
+
+.recipesp2{
+	width: 450px;
+	height: 200px;
+	margin-top: -220px;
+   line-height: 25px;
+	font-size: 18px;
+	float: right;
+/*		background-color: aqua;*/
+	margin-right: 190px;
+	
+}
+.bookatable{
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 600px;
+	
+}
+.bookus{
+	width: 400px;
+height: 200px;	
+background-color: #ECBC3E;
+	margin-bottom: 400px;
+	margin-left: -300px;
+	margin-top: 30px;
+}
+.bookus h1{
+	margin-left: -250px;
+	margin-bottom: -100px;
+	
+	
+}
+.picd{
+	width: 320px;
+	height: 220px;
+	background: url("images web/200.gif");
+	float: right;
+	margin-top: -600px;
+	margin-left: 200px;
+	position: absolute;
+}
+.picd:hover{
+	transform: scale(1.1);
+	transition: 1s;
+}
+
+.ourservices{
+	width: 1366px;
+	height: 100px;
+	text-align: center;
+	margin-top: 200px;
+	margin-left: 100px;
+	
+}
+.pice{
+	width: 230px;
+	height: 150px;
+	background: url("images web/300.gif");
+	margin-left: 200px;
+}
